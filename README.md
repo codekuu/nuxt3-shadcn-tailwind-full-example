@@ -11,6 +11,7 @@ Run it using npm, pnpm, yarn or bun. Settings on host and port can be changed in
   - [Dashboard](#dashboard)
   - [Login](#login)
   - [Billing](#billing)
+- [How to add components (shadcn)](#how-to-add-components-shadcn)
 - [Setup](#setup)
 - [Development Server](#development-server)
 - [Production](#production)
@@ -38,6 +39,16 @@ Run it using npm, pnpm, yarn or bun. Settings on host and port can be changed in
 ### Billing
 
 ![image](docs/example-3.png)
+
+## How to add components (shadcn)
+
+To add a new component we need to use npx:
+
+```bash
+npx shadcn-vue@latest add XXXXX
+```
+
+Read more about it here (step 9): https://www.shadcn-vue.com/docs/installation/nuxt.html
 
 ## Setup
 
